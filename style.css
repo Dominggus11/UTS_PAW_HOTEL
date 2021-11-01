@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #505962;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.serv {
+  width: 40px;
+  height: 40px;
+}
+/*****************CARD*****************/
+
+.card {
+  margin: 20px 10px;
+  width: 100%;
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+}
+
+.inner {
+  overflow: hidden;
+}
+
+.inner img {
+  transition: all 1s ease;
+}
+
+.inner:hover img {
+  transform: scale(1.5);
+}
+
+/*****************CAROUSEL*****************/
+
+.carousel-item {
+  height:60rem;
+  background: #000;
+  color: white;
+  position: relative;
+
+}
+
+.overlay-image {
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  top: 0;
+  background-position: center;
+  background-size:cover;
+  opacity: 0.5;
+}
+
+/*****************CAROUSEL*****************/
+
+.btn-purple {
+  border-color: #8366B0;
+  background-color: #8366B0;
+  color: white;
+  margin: 1rem;
+}
+.btn-purple:hover,
+.btn-purple:focus {
+  border-color: #594781;
+  background-color: #594781;
+  color: white;
+}
+
+.feature img {
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #40474e;
+  background-size: cover;
+  color: white;
+}
+footer .row {
+  padding: 1.5rem 0 4rem;
+  line-height: 2rem;
+}
+footer img {
+  margin: 1.5rem 0;
+}
+footer h3 {
+  margin: 1.5rem 0;
+}
+
+/*-- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
